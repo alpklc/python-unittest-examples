@@ -37,3 +37,12 @@
 
 `python -m unittest test_package.test_module.TestClass.test_method -v`
 
+### Test Coverage
+`pip install coverage`
+
+`python -m coverage run -m unittest`
+
+`python -m coverage report`
+
+`python -m coverage html`
+
